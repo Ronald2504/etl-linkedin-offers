@@ -6,7 +6,7 @@ def task_load(data):
     try:
         conn = mysql.connector.connect(
             user='root',
-            password='danyafea15',
+            password='root',
             host='localhost',
             database='datag3'
         )
